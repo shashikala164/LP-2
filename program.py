@@ -11,9 +11,8 @@ def binary_search(arr,target):
     elif arr[mid]<target:
       low=mid+1
     else:
-         high=mid-1
-        
-         return -1
+      high=mid-1
+      return -1
       
       #example
       arr=input("enter the sorted elements").split()
